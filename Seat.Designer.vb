@@ -38,6 +38,8 @@ Partial Class Seat
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -69,7 +71,7 @@ Partial Class Seat
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(369, 102)
+        Me.Button2.Location = New System.Drawing.Point(56, 64)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 3
@@ -78,7 +80,7 @@ Partial Class Seat
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(369, 131)
+        Me.Button3.Location = New System.Drawing.Point(56, 93)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 4
@@ -87,7 +89,7 @@ Partial Class Seat
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(369, 160)
+        Me.Button4.Location = New System.Drawing.Point(56, 122)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 5
@@ -96,7 +98,7 @@ Partial Class Seat
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(369, 189)
+        Me.Button5.Location = New System.Drawing.Point(56, 151)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 6
@@ -105,7 +107,7 @@ Partial Class Seat
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(473, 102)
+        Me.Button6.Location = New System.Drawing.Point(160, 64)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 7
@@ -114,7 +116,7 @@ Partial Class Seat
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(554, 102)
+        Me.Button7.Location = New System.Drawing.Point(241, 64)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(75, 23)
         Me.Button7.TabIndex = 8
@@ -123,7 +125,7 @@ Partial Class Seat
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(473, 131)
+        Me.Button8.Location = New System.Drawing.Point(160, 93)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(75, 23)
         Me.Button8.TabIndex = 9
@@ -132,7 +134,7 @@ Partial Class Seat
         '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(554, 131)
+        Me.Button9.Location = New System.Drawing.Point(241, 93)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(75, 23)
         Me.Button9.TabIndex = 10
@@ -141,7 +143,7 @@ Partial Class Seat
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(473, 160)
+        Me.Button10.Location = New System.Drawing.Point(160, 122)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(75, 23)
         Me.Button10.TabIndex = 11
@@ -150,7 +152,7 @@ Partial Class Seat
         '
         'Button11
         '
-        Me.Button11.Location = New System.Drawing.Point(554, 160)
+        Me.Button11.Location = New System.Drawing.Point(241, 122)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(75, 23)
         Me.Button11.TabIndex = 12
@@ -159,7 +161,7 @@ Partial Class Seat
         '
         'Button12
         '
-        Me.Button12.Location = New System.Drawing.Point(473, 189)
+        Me.Button12.Location = New System.Drawing.Point(160, 151)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(75, 23)
         Me.Button12.TabIndex = 13
@@ -168,7 +170,7 @@ Partial Class Seat
         '
         'Button13
         '
-        Me.Button13.Location = New System.Drawing.Point(554, 189)
+        Me.Button13.Location = New System.Drawing.Point(241, 151)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(75, 23)
         Me.Button13.TabIndex = 14
@@ -184,30 +186,41 @@ Partial Class Seat
         Me.Button14.Text = "Pay"
         Me.Button14.UseVisualStyleBackColor = True
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Button13)
+        Me.GroupBox1.Controls.Add(Me.Button12)
+        Me.GroupBox1.Controls.Add(Me.Button11)
+        Me.GroupBox1.Controls.Add(Me.Button10)
+        Me.GroupBox1.Controls.Add(Me.Button9)
+        Me.GroupBox1.Controls.Add(Me.Button8)
+        Me.GroupBox1.Controls.Add(Me.Button7)
+        Me.GroupBox1.Controls.Add(Me.Button6)
+        Me.GroupBox1.Controls.Add(Me.Button5)
+        Me.GroupBox1.Controls.Add(Me.Button4)
+        Me.GroupBox1.Controls.Add(Me.Button3)
+        Me.GroupBox1.Controls.Add(Me.Button2)
+        Me.GroupBox1.Location = New System.Drawing.Point(313, 38)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(353, 321)
+        Me.GroupBox1.TabIndex = 16
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "GroupBox1"
+        '
         'Seat
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Seat"
         Me.Text = "Seat"
+        Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -229,4 +242,5 @@ Partial Class Seat
     Friend WithEvents Button12 As Button
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
+    Friend WithEvents GroupBox1 As GroupBox
 End Class

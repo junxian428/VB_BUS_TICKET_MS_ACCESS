@@ -31,7 +31,7 @@ Public Class Result
                 TheCommand.CommandType = CommandType.Text
                 Dim TheDataReader As OleDbDataReader = TheCommand.ExecuteReader()
                 While TheDataReader.Read()
-                    Console.WriteLine(TheDataReader("Date").ToString())
+                    'Console.WriteLine(TheDataReader("Date").ToString())
                     'Staff_ID_Box Staff_Name_Box Staff_Age_Box Staff_Salary_Box
                     'MessageBox.Show(TheDataReader("Date").ToString())
                     ListBox1.Items.Add(TheDataReader("Operator").ToString())

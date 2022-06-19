@@ -22,5 +22,60 @@ VB_GUI_MS_ACCESS
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources._279040664_725932995385764_2143172628802996982_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources._279040664_725932995385764_2143172628802996982_n1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.image1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.image2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.image3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.image31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.image4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.image5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.image6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.LOGO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_GUI_MS_ACCESS.My.Resources.Resources.MAIN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

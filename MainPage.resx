@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Hi and welcome to MY Bus Ticket Booking System!!!
+We are providing bus pickup service in Malaysia.
+The purpose of our service is to allow users to order bus tickets
+ in the fastest way and enjoy their journey.</value>
+  </data>
 </root>
