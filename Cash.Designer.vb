@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ContactUs
+Partial Class Cash
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -27,22 +27,22 @@ Partial Class ContactUs
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(443, 364)
+        Me.Button1.Location = New System.Drawing.Point(327, 358)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(137, 27)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Home"
+        Me.Button1.Text = "Pay"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'ContactUs
+        'Cash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "ContactUs"
-        Me.Text = "ContactUs"
+        Me.Name = "Cash"
+        Me.Text = "Cash"
         Me.ResumeLayout(False)
 
     End Sub

@@ -19,6 +19,7 @@ Public Class BusSchedule
         ListBox1.Items.Add("BILLIONSTAR")
         ListBox1.Items.Add("CITYEXPRESS")
         ListBox1.Items.Add("FIVESTAR")
+        ListBox1.Items.Add("KKKL")
 
 
         ListBox2.Items.Add("JB")
