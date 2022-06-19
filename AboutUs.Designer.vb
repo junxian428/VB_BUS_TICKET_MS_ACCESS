@@ -28,8 +28,8 @@ Partial Class AboutUs
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -80,15 +80,6 @@ Partial Class AboutUs
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "About Us"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.VB_GUI_MS_ACCESS.My.Resources.Resources.MAIN
-        Me.PictureBox1.Location = New System.Drawing.Point(99, 111)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(705, 210)
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -99,12 +90,21 @@ Partial Class AboutUs
         Me.Label2.TabIndex = 6
         Me.Label2.Text = resources.GetString("Label2.Text")
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.VB_GUI_MS_ACCESS.My.Resources.Resources.MAIN
+        Me.PictureBox1.Location = New System.Drawing.Point(99, 111)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(705, 210)
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = False
+        '
         'AboutUs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(985, 690)
+        Me.ClientSize = New System.Drawing.Size(985, 749)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
